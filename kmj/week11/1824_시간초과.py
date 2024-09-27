@@ -1,3 +1,6 @@
+# tc 1만 처리하고 시간 초과
+# >> 방문 처리를 해야할 듯?
+
 import sys
 sys.stdin = open("input.txt","r")
 
@@ -89,5 +92,3 @@ for tc in range(1, T + 1):
 
     result = move(grid, R, C)
     print(f"#{tc} {result}")
-
-# >> 방문 처리를 해야할 듯?
