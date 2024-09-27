@@ -69,10 +69,12 @@ def move(grid, R, C):
                 nc = (c + new_dir_vec[1]) % C
                 stack.append((nr, nc, new_dir_vec, memory))
             continue
-        else: # '.'
-            new_dir_vec = direction(cmd, memory)
-            if new_dir_vec:
-                dir_vec = new_dir_vec
+        elif cmd == '_':
+            dir_vec = direction('_', memory)
+        elif cmd == '|':
+            dir_vec = direction('|', memory)
+
+        # '.'은 처리하지않음
 
         # 다음 위치로 이동 (격자 밖으로 나가는 경우를 처리)
         nr = (r + dir_vec[0]) % R
