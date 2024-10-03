@@ -20,4 +20,4 @@ def solution(numbers):
 
 numbers=[2, 3, 3, 5]
 result = solution(numbers)
-print(result)
+print(result) # [3, 5, 5, -1]
