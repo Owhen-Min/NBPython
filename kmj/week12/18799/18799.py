@@ -20,7 +20,6 @@ def f(i, k):  # bit[i]를 결정하는 함수
         bit[i] = 0 # 원소 포함 x
         f(i + 1, k)
 
-
 T = int(input())
 for tc in range(1,T+1):
     N = int(input()) # 집합 크기
