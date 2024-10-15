@@ -13,7 +13,7 @@
 def solution(clothes):
     answer = 1
     costumes = dict()
-    for name, cloth_type in clothes:
+    for _, cloth_type in clothes:
         if cloth_type in costumes.keys():
             costumes[cloth_type] += 1
         else:
