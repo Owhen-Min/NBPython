@@ -23,3 +23,4 @@ def dfs(depth, sin, ssen, used):
 dfs(0, 1, 0, 0)
 
 print(min_diff)
+
