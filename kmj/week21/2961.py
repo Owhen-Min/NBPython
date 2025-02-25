@@ -2,6 +2,7 @@ N = int(input())
 ingredients = [list(map(int, input().split())) for _ in range(N)]
 min_diff = 1e9  # 신맛과 쓴맛 차이의 최소값
 
+# 현재 어디까지 왔나? / 현재까지 선택한 신맛 / 현재까지 선택한 쓴맛/ 지금까지 선택한 재료 개수
 def dfs(depth, sin, ssen, used):
     global min_diff
 
