@@ -17,7 +17,7 @@
 - [ETC] - 그외
 4. 커밋 메시지 자동화
 - 터미널에 git config --local commit.template .gitmessage를 작성 후, git commit만 입력할 경우 .gitmessage 기반 템플릿 제공.
-- VI 툴을 사용하고 있으므로 i를 눌러 삽입을 누르고 수정 후 Ctrl + C, wq!로 저장 후 나와야 함.
+- VI 툴을 사용하고 있으므로 i를 눌러 삽입모드로 들어간 후 키보드로 수정하고 Ctrl + C로 커맨드 창으로 나가고, wq!로 저장하면 됨.
 
 ### 📂 디렉토리 구조
 MKH  
